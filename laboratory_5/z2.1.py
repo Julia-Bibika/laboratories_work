@@ -12,6 +12,9 @@ for i in range(n):
     if num > num_1:
         num_1 = num
         k += 1
+    else:
+        num_1 = num
+        
 if k == n:
     print("Послідовність зростає")
 else:
